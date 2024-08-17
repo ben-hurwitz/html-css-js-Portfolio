@@ -1,0 +1,497 @@
+body:after{
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(/assets/ameduorange.png) url(/assets/amintorange.png) url(/assets/amphiorange.png) url(/assets/ingorange.png) url(/assets/linkinorange.png) url(/assets/githuborange.png) url(/assets/emailorange.png) url(/assets/bloglastbuttonorange.png);
+}
+
+
+main{
+    width: 100%;
+    height: 500px;
+    background-image: url(/assets/headerwithall.png);
+    background-size: cover;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ABOUT ME SECTION--HEADER */
+
+.header-aboutme{
+    width: 100%;
+    height: 60px;
+    padding: 50px 50px;
+    padding-bottom: 0px;
+    background-color: transparent;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+.bar-1{
+    width: 50%;
+    align-self: center;
+    row-gap: 10px;
+}
+
+.aboutme-title{
+    width: 172px;
+    align-self: center;
+    row-gap: 10px;
+}
+
+.bar-2{
+    width: 50%;
+    align-self: center;
+    row-gap: 10px;
+}
+
+
+
+
+
+
+
+/* ABOUT ME SECTION */
+
+.index-aboutme{
+    width: 100%;
+    padding: 60px 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.index-aboutme-edu{
+    width: 270px;
+    height: 327px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* USE IF TEXT display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.index-aboutme-edu:nth-child(1){
+    background-image: url(/assets/amedublue.png);
+}
+
+.index-aboutme-edu:nth-child(1):hover{
+    background-image: url(/assets/ameduorange.png);
+    transition: 300ms ease-in-out;
+}
+
+.index-aboutme-star{
+    width: 34px;
+    height: 144px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+    /* USE IF TEXT display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.index-aboutme-star:nth-child(2){
+    background-image: url(/assets/aboutmestar.png);
+}
+
+.index-aboutme-int{
+    width: 270px;
+    height: 327px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* USE IF TEXT display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.index-aboutme-int:nth-child(3){
+    background-image: url(/assets/amintblue.png);
+}
+
+.index-aboutme-int:nth-child(3):hover{
+    background-image: url(/assets/amintorange.png);
+    transition: 300ms ease-in-out;
+    height: 327px;
+}
+
+.index-aboutme-star{
+    width: 34px;
+    height: 144px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+    /* USE IF TEXT display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.index-aboutme-star:nth-child(4){
+    background-image: url(/assets/aboutmestar.png);
+}
+
+.index-aboutme-phi{
+    width: 270px;
+    height: 327px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* USE IF TEXT display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.index-aboutme-phi:nth-child(5){
+    background-image: url(/assets/amphiblue.png);
+}
+
+.index-aboutme-phi:nth-child(5):hover{
+    background-image: url(/assets/amphiorange.png);
+    transition: 300ms ease-in-out;
+    height: 327px;
+}
+
+.shortblkhorizontalline1{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.connect-wme-1bar{
+    width: 100%;
+    height: 70px;
+    background-color: #192453;
+    display: flex;
+    justify-content: center;
+}
+
+.connect-wme-1bar h1{
+    font-family: Futura;
+    color: #FFF8EF;
+    letter-spacing: 18px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.connect-wme-2bar{
+    width: 100%;
+    height: 70px;
+    background-color: #006DBA;
+    display: flex;
+    justify-content: center;
+}
+
+.connect-wme-2bar h1{
+    font-family: Futura;
+    color: #FFF8EF;
+    letter-spacing: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.connect-wme-3bar{
+    width: 100%;
+    height: 70px;
+    padding-top: 25px;
+    background-color: #93D7F6;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.instagram{
+    width: 206px;
+    height: 70px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 206px;
+    align-self: center;
+    /* USE IF TEXT display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.instagram:nth-child(1){
+    background-image: url(/assets/ingblue.png);
+}
+
+.instagram:nth-child(1):hover{
+    background-image: url(/assets/ingorange.png);
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.linkedIn{
+    width: 174px;
+    height: 70px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 174px;
+    align-self: center;
+    /* USE IF TEXT display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.linkedIn:nth-child(2){
+    background-image: url(/assets/linkinblue.png);
+}
+
+.linkedIn:nth-child(2):hover{
+    background-image: url(/assets/linkinorange.png);
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.gitHub{
+    width: 155px;
+    height: 70px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 155px;
+    align-self: center;
+    /* USE IF TEXT display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.gitHub:nth-child(3){
+    background-image: url(/assets/githubblue.png);
+}
+
+.gitHub:nth-child(3):hover{
+    background-image: url(/assets/githuborange.png);
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.email{
+    width: 140px;
+    height: 70px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 140px;
+    align-self: center;
+    /* USE IF TEXT display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.email:nth-child(4){
+    background-image: url(/assets/emailblue.png);
+}
+
+.email:nth-child(4):hover{
+    background-image: url(/assets/emailorange.png);
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.shortblkhorizontalline2{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+/* Blog and Portfolio Section */
+
+.firstbox{
+    width: 100%;
+    height: 300px;
+    background-color: #FFF8EF;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.awardww-logo{
+    width: 55%;
+    height: fit-content;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.secondbox{
+    width: 40%;
+    height: 250px;
+    margin-right: 50px;
+}
+
+.readblog-logo{
+    width: 90%;
+    height: fit-content;
+    margin-left: 4%;
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+
+.blog-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-self: center;
+}
+
+.view-last{
+    width: 210px;
+    height: 70px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 210px;
+    /* USE IF TEXT display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.view-last:nth-child(1){
+    background-image: url(/assets/bloglastbutton.png);
+}
+
+.view-last:nth-child(1):hover{
+    background-image: url(/assets/bloglastbuttonorange.png);
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.view-all{
+    width: 210px;
+    height: 70px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 210px;
+    /* USE IF TEXT display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.view-all:nth-child(2){
+    background-image: url(/assets/bloglastbutton.png);
+}
+
+.view-all:nth-child(2):hover{
+    background-image: url(/assets/bloglastbuttonorange.png);
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.final-sec{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    width: 50%;
+    justify-content: left;
+    gap: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.port{
+    width: 120px;
+    height: 70px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    /* USE IF TEXT display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.port:nth-child(1){
+    background-image: url(/assets/portlogoblue.png);
+}
+
+.port:nth-child(1):hover{
+    background-image: url(/assets/portlogoorange.png);
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.awards{
+    width: 120px;
+    height: 70px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    /* USE IF TEXT display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.awards:nth-child(2){
+    background-image: url(/assets/portlogoblue.png);
+}
+
+.awards:nth-child(2):hover{
+    background-image: url(/assets/portlogoorange.png);
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.work{
+    width: 120px;
+    height: 70px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    /* USE IF TEXT display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.work:nth-child(3){
+    background-image: url(/assets/portlogoblue.png);
+}
+
+.work:nth-child(3):hover{
+    background-image: url(/assets/portlogoorange.png);
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.attributions{
+    width: 50%;
+    margin-right: 65px;
+    margin-top: 5px;
+}
+
+.attributions-top{
+    display: flex;
+    gap: 2px;
+    justify-content: right;
+}
+
+.attributions-bottom{
+    display: flex;
+    gap: 2px;
+    justify-content: right;
+    margin-top: -7px;
+}
+
+.attributions p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 350;
+    color: #192453;
+}
+
+.attributions h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    color: #192453;
+}
